@@ -1,0 +1,12 @@
+<!-- myapp/index.html -->
+<!doctype html>
+<html>
+  <head><meta charset="utf-8"><title>My App</title></head>
+  <body>
+    <h1>Hello from My App — deployed via CI/CD!</h1>
+    <p>Build: <span id="build"></span></p>
+    <script>
+      document.getElementById('build').innerText = new Date().toISOString();
+    </script>
+  </body>
+</html>

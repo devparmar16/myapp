@@ -1,0 +1,4 @@
+# myapp/Dockerfile
+FROM nginx:alpine
+COPY index.html /usr/share/nginx/html/index.html
+# nginx default exposes port 80
